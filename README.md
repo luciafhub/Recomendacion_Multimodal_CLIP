@@ -34,6 +34,18 @@ Este proyecto se centra únicamente en el archivo `reviews.pkl`, ya que contiene
 Para este TFG se ha trabajado con los datos de Gijón, una ciudad pequeña cuyas reseñas están escritas en español, lo que facilita su análisis y procesamiento. Posteriormente se analizaron también los datos de Nueva York, que presentan un volumen mucho mayor de datos (con decenas de miles de reseñas), pero también implican mayores requerimientos computacionales. Además, al estar redactadas en inglés, las reseñas de Nueva York podrían aprovechar mejor el rendimiento del modelo CLIP, entrenado principalmente en ese idioma.
 
 
+# Datasets Preprocesados
+
+Los datasets necesarios para entrenar y evaluar el sistema de recomendación están disponibles públicamente en Kaggle:
+
+- **gij8010**  
+  [https://www.kaggle.com/datasets/lucapropaganda/gij8010](https://www.kaggle.com/datasets/lucapropaganda/gij8010)
+
+- **ny8010**  
+  [https://www.kaggle.com/datasets/lucapropaganda/ny8010](https://www.kaggle.com/datasets/lucapropaganda/ny8010)
+
+Estos datasets contienen reseñas de restaurantes extraídas y preprocesadas a partir del conjunto original Multimodal Yelp Dataset Challenge (Zenodo), e incluye embeddings de texto e imagen generados con CLIP de OpenAI. Se proporciona una partición estratificada (80/10/10) en tres archivos .pkl, con información como texto, imágenes, puntuación, identificadores y representaciones vectoriales, lo que permite aplicar sistemas de recomendación multimodal de forma eficiente y reproducible.
+
 ## Tecnologías
 
 - Python 3
