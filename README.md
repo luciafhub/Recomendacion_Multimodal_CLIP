@@ -38,11 +38,9 @@ Para este TFG se ha trabajado con los datos de Gijón, una ciudad pequeña cuyas
 
 Los datasets necesarios para entrenar y evaluar el sistema de recomendación están disponibles públicamente en Kaggle:
 
-- **gij8010**  
-  [https://www.kaggle.com/datasets/lucapropaganda/gij8010](https://www.kaggle.com/datasets/lucapropaganda/gij8010)
+- **gij8010** [Enlace a Kaggle](https://www.kaggle.com/datasets/lucapropaganda/gij8010)
 
-- **ny8010**  
-  [https://www.kaggle.com/datasets/lucapropaganda/ny8010](https://www.kaggle.com/datasets/lucapropaganda/ny8010)
+- **ny8010** [Enlace a Kaggle](https://www.kaggle.com/datasets/lucapropaganda/ny8010)
 
 Estos datasets contienen reseñas de restaurantes extraídas y preprocesadas a partir del conjunto original Multimodal Yelp Dataset Challenge (Zenodo), e incluye embeddings de texto e imagen generados con CLIP de OpenAI. Se proporciona una partición estratificada (80/10/10) en tres archivos .pkl, con información como texto, imágenes, puntuación, identificadores y representaciones vectoriales, lo que permite aplicar sistemas de recomendación multimodal de forma eficiente y reproducible.
 
