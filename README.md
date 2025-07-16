@@ -22,7 +22,7 @@ Este repositorio contiene el trabajo realizado para mi Trabajo Fin de Grado (TFG
 
 ## Datos utilizados
 
-Las bases de datos utilizadas en este proyecto proceden del repositorio público [Zenodo – MultiModal Yelp](https://zenodo.org/records/5644892). Para cada ciudad incluida en el dataset (por ejemplo, Nueva York, Gijón, Bogotá o Ciudad de México), se proporcionan tres archivos `.pkl`:
+Las bases de datos utilizadas en este proyecto proceden del repositorio público [Zenodo – MultiModal Yelp](https://zenodo.org/records/5644892). Para cada ciudad incluida en el dataset (por ejemplo, Nueva York, Barcelona, Gijón o París), se proporcionan tres archivos `.pkl`:
 
 - `restaurants.pkl` – Información de los restaurantes
 - `users.pkl` – Información de los usuarios
